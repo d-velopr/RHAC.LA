@@ -9,6 +9,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+    <link rel="stylesheet" href="css/elementAEOC.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/vendor.css" />
@@ -281,6 +282,34 @@
         </div>
       </div>
     </section>
+    <!-- Donate Section -->
+    <section class="donate-section">
+      <div class="auto-container">
+        <div id="donate" class="inner-container clearfix">
+          <h3>
+            Your support helps us change lives — every dollar fuels hope,
+            healing, and a brighter future.
+          </h3>
+          <a href="javascript:void(0);" class="call-btn" onclick="showPopup()"
+            >Donate</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End Donate Section -->
+    <!-- QR Code Popup -->
+    <div id="qrPopup" class="popup-overlay">
+      <div class="popup-content">
+        <h2>Scan this QR to Donate</h2>
+        <p style="margin-bottom: -5px">
+          Los Angeles Reentry Health Advisory Collaborative
+        </p>
+        <img src="images/rhacDonation.png" alt="QR Code" />
+        <button onclick="closePopup()">Close</button>
+      </div>
+    </div>
+    <!-- End QR Code Popup -->
+    <br />
 
     <!-- footer
    ================================================== -->
@@ -385,6 +414,7 @@
 
     <!-- Java Script
    ================================================== -->
+    <script src="js/popup.js"></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/plugins.js"></script>

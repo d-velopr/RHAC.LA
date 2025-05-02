@@ -1,10 +1,10 @@
-.subscribe-section{
+.donate-section{
 	position: relative;
 	margin: -75px 0;
 	z-index: 9;
 }
 
-.subscribe-section .inner-container{
+.donate-section .inner-container{
 	position: relative;
 	background-color: #05bca9;
 	outline: 2px solid rgba(255,255,255,.33);
@@ -16,7 +16,7 @@
     text-align: center;  
 }
 
-.subscribe-section h3{
+.donate-section h3{
 	position: relative;
 	padding: 10px 0;
     margin-top: 20px;
@@ -27,7 +27,7 @@
 	font-family: "Rubik", sans-serif;
 }
 
-.subscribe-section .call-btn{
+.donate-section .call-btn{
 	position: relative;
 	font-size: 14px;
 	line-height: 20px;
@@ -42,7 +42,7 @@
 	transition: all 300ms ease;
 }
 
-.subscribe-section .call-btn:hover{
+.donate-section .call-btn:hover{
 	background-color: #ffffff;
 	color: #000000;
 }
